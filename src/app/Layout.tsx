@@ -7,8 +7,8 @@ const Layout = () => {
         <>
             <Header />
             <main>
-                <div className="container py-6">
-                    <div className="flex justify-center">
+                <div className="container">
+                    <div className="flex justify-center py-7">
                         <Outlet />
                     </div>
                 </div>
