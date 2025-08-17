@@ -14,6 +14,10 @@ const Layout = () => {
                 </div>
             </main>
             <Toaster />
+            <footer className="p-3 flex flex-col items-center gap-3 text-lg">
+                <p>alpha 0.3.3</p>
+                <p>by <a className="text-amber-100" href="https://t.me/silentias">silentias</a></p>
+            </footer>
         </>
     )
 }
