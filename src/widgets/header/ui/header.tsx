@@ -11,6 +11,7 @@ export const Header = () => {
                     </div>
                     <nav className="flex gap-4">
                         <Link className="font-semibold" to="/chord">Подбор аккордов</Link>
+                        <Link className="font-semibold" to="/convert">Конвертер</Link>
                     </nav>
                     <ToggleTheme />
                 </div>
